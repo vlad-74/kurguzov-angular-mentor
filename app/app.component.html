@@ -1,5 +1,5 @@
 <section class="clip-text-video">
-  <video autoplay loop muted playsinline preload="auto" width="100%" [class.animate-video]="bool">
+  <video autoplay oncanplay="this.play()" oncanplay="this.play()" onloadedmetadata="this.muted = true" loop muted playsinline preload="auto" width="100%" [class.animate-video]="bool">
       <source src="https://www.jonathandempsey.dev/wp-content/uploads/2020/05/waves.mp4">
   </video>
   <div class="clip-text-video__text" [class.animate]="bool">
