@@ -45,6 +45,10 @@ video {
     font-size: 2vw;
     text-decoration: none;
     text-align: center;
+    top: 40px;
+    left: 135px;
+    position: absolute;
+    color: #009688;
   }
 }
 
@@ -102,7 +106,7 @@ div .mat-select-panel .mat-optgroup-label, .mat-select-panel mat-option.mat-opti
 img{
   position: absolute;
   top:10px;
-  right: 10px;
+  left: 10px;
   width:100px;
   border-radius: 50%;
 }
