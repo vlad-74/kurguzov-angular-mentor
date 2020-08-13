@@ -45,11 +45,24 @@ video {
     font-size: 2vw;
     text-decoration: none;
     text-align: center;
-    top: 40px;
-    left: 135px;
-    position: absolute;
     color: #009688;
   }
+}
+
+img{
+  width: 4vw;
+  border-radius: 50%;
+}
+
+.logo{
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+  width: 23vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 8vh;
 }
 
 .clip-text-video__text p {
@@ -101,12 +114,4 @@ div .mat-select-panel .mat-optgroup-label, .mat-select-panel mat-option.mat-opti
       color: #009688;
     }
   }
-}
-
-img{
-  position: absolute;
-  top:10px;
-  left: 10px;
-  width:100px;
-  border-radius: 50%;
 }
