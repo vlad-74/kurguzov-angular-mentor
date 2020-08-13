@@ -44,6 +44,7 @@ video {
   a{
     font-size: 2vw;
     text-decoration: none;
+    margin-left: 70px;
   }
 }
 
@@ -74,8 +75,9 @@ video {
   font-size: 4vw;
 }
 
-.mat-form-field {
+.clip-text-video__text .mat-form-field {
   width: 30%;
+  text-align: center;
 }
 
 div .mat-select-panel .mat-optgroup-label, .mat-select-panel mat-option.mat-option{
