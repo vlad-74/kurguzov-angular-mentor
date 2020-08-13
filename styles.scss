@@ -40,6 +40,11 @@ video {
   opacity: .9;
   @include start;
   @include transition;
+
+  a{
+    font-size: 2vw;
+    text-decoration: none;
+  }
 }
 
 .clip-text-video__text p {
