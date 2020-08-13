@@ -8,7 +8,7 @@ export class AppComponent implements OnInit {
   bool = false;
 
    ngOnInit() {
-    setTimeout(()=>{this.bool = true})
+    setTimeout(()=>{this.bool = true}, 500)
   }
 
 }
