@@ -42,7 +42,7 @@ video {
   @include transition;
 
   a{
-    font-size: 2vw;
+    font-size: 2vmax;
     text-decoration: none;
     text-align: center;
     color: #009688;
@@ -58,7 +58,7 @@ img{
   position: absolute;
   top: 2vh;
   left: 2vw;
-  width: 23vw;
+  width: 23vmax;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,6 +85,11 @@ img{
   width: 100%;
   height: 90vh;
   padding: 0 5px;
+}
+
+.hidden{
+  opacity: 0;
+  pointer-events: none;
 }
 
 .mat-select-arrow-wrapper .mat-select-arrow, .mat-select-value, mat-label, mat-select{
